@@ -8,3 +8,8 @@ console.log(valores.length) // Length - mostrando quantos elementos existe no ar
 
 valores.push({id:3}, false, null,'teste') // Adicionando novos elementos
 console.log(valores.pop()) // Pop - Retira do array o último valor 
+
+delete valores[0]
+console.log(valores)
+
+console.log(typeof valores)
